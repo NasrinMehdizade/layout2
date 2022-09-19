@@ -1,0 +1,42 @@
+html {
+  font-size: 100%;
+}
+
+.section {
+  background-color: cadetblue;
+  text-align: center;
+  padding: 2rem 0rem;
+  color: white;
+}
+
+header , .c1 {
+  margin-bottom: 1.2rem;
+}
+
+.content {
+  float: left;
+  width: calc(66.66% - 1rem);
+  margin-right: 1rem;
+}
+.content .box {
+  height: 200px;
+  background: #406d6e;
+  margin: .5rem;
+  float: left;
+  width: calc(33.33% - 1rem);
+}
+
+.sidebar {
+  float: left;
+  width: 33.33%;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
